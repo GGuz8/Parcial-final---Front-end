@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+
+/* NAV */
+
+nav {
+    display: flex;
+    height:174px;;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10.5%;
+}
+
+.getstarted {
+    border: none;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    background: #F3603B;
+    color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.getstarted:hover {
+    transform: scale(1.07);
+    transition: 0.5s;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.50);
+}
+
+.nav60 {
+    display: flex;
+    justify-content: center;
+}
+
+.ulNav {
+    display: flex;
+    list-style: none;
+    color: #242E52;
+}
+
+.ulNav li {
+    padding: 10px;
+}
+
+.ulNav a {
+    text-decoration: none;
+    color: #242E52;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------*/
+
+/* MAIN SECTION1 */ 
+
+.section1 {
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 10.5%;
+}
+
+.container1Section1 {
+    display: flex;
+    width:500px;
+    flex-direction: column;
+}
+
+.container1Section1 h1 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #232C50;
+}
+
+.container1Section1 p {
+    color: black;
+    line-height: 157.1%;
+    font-size: 16.5px;
+    width: 350px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.containerAside1 {
+    width: 500px;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* SECTION2 */
+
+.section2 {
+    margin: 0px 10.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.container1Section2 {
+    display: flex;
+    width:450px;
+    flex-direction: column;
+}
+
+.container1Section2 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    color: #232851;
+    margin-bottom: 30px;
+}
+
+.container1Section2 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.1%;
+    color: black;
+    width: 337px;
+}
+
+.container2Section2 {
+    display: flex;
+    width:500px;
+    margin-left: 100px;
+}
+
+.aside123 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.unodostres {
+    margin: 0px 25px 0 0;
+}
+
+.h4yNumero {
+    display: flex;
+    align-items: center;
+}
+
+.h4yNumero h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #323851;
+    letter-spacing: -0.015em;
+    margin-bottom: 15px;
+    margin-left: -70px
+}
+
+
+.h4yNumero .uno {
+    position: relative;
+    right: 100px;
+}
+
+.dos {
+    margin: 160px 0px;
+}
+
+.botonesunodostres {
+    width: 69px;
+    height: 43px;
+    background: #F3603B;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.containerh4 {
+    margin-bottom: 60px;
+}
+
+
+.containerh4 p {
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 16.2px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* SECTION3 */
+
+.section3 {
+    margin-top: 100px;
+}
+
+.containerTestimonios {
+    display: flex;
+    justify-content: center;
+}
+
+.containerTestimonios h2 {
+    color: #242E53;
+    font-weight: 700;
+    font-size: 39.2px;
+    line-height: 156%;
+}
+
+.containerArticles {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonios {
+    width: 445px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonios img {
+    height: 70px;
+    width: 70px;
+}
+
+.testimonios h3 {
+    margin: 20px 0px;
+    font-weight: 700;
+    font-size: 16.px;
+    line-height: 156%;
+    color: #3F4868;
+}
+
+.testimonios p {
+    color: #B9B9C1;
+    text-align: center;
+}
+
+.buttonTestimonios {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* FOOTER1 */
+
+.footer1 {
+    height: 224px;
+    background-color: #F3613C;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.div1footer1 {
+    width: 50%;
+}
+
+.div1footer1 h2 {
+    margin-left: 165px ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+}
+
+.div2footer1 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div2footer1 button {
+    margin-right: 165px;
+}
+
+.getstartedblanco {
+    border: none;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* FOOTER2 */
+
+.footer2 {
+    height: 247px;
+    background: #1E1E26;
+}
+
+.containerFooter2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 247px;
+}
+
+.logofooter {
+    margin-bottom: 87px;
+}
+
+.divUlFooter {
+    color: white;
+}
+
+.divUlFooter ul {
+    list-style: none;
+}
+
+.divUlFooter ul li {
+    padding: 12px 0px;
+}
+
+.divUlFooter ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.divUlFooter2 {
+    color: white;
+}
+
+.divUlFooter2 ul {
+    list-style: none;
+    margin-top: -40px;
+}
+
+.divUlFooter2 ul li {
+    padding: 12px 0px;
+}
+
+.divUlFooter2 ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.divFormFooter input {
+    border-radius: 50px;
+    background: #ffffff;
+    width: 201px;
+    height: 44px;
+    border: none;
+    padding-left: 10px;
+}
+
+.divFormFooter button {
+    width: 63px;
+    height: 42px;
+    background: #F3603B;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 5px;
+}
