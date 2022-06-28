@@ -67,6 +67,10 @@ nav {
     padding: 10px;
 }
 
+.ulNav li:hover {
+    color: #242e526e
+}
+
 .ulNav a {
     text-decoration: none;
     color: #242E52;
@@ -85,8 +89,8 @@ nav {
 
 .container1Section1 {
     display: flex;
-    width:500px;
-    max-width: 90%;
+    max-width:500px;
+    width: auto;
     flex-direction: column;
 }
 
@@ -100,13 +104,15 @@ nav {
     color: black;
     line-height: 157.1%;
     font-size: 16.5px;
-    width: 350px;
+    width: auto;
+    max-width: 350px;
     font-weight: 500;
     margin: 20px 0px;
 }
 
 .containerAside1 {
-    width: 500px;
+    width: auto;
+    min-width: 500px;
 }
 
     .imagen {
@@ -132,7 +138,6 @@ nav {
     width:450px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .container1Section2 h2 {
@@ -141,7 +146,7 @@ nav {
     line-height: 114.6%;
     color: #232851;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .container1Section2 p {
@@ -151,7 +156,7 @@ nav {
     color: black;
     max-width: 337px;
     width: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .container2Section2 {
@@ -298,6 +303,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    background-image: url(../imagenes/bg-simplify-section-desktop.svg);
 }
 
 .div1footer1 {
@@ -352,7 +358,8 @@ nav {
 /* FOOTER2 */
 
 .footer2 {
-    height: 247px;
+    height: auto;
+    min-height: 247px;
     background: #1E1E26;
 }
 
@@ -360,8 +367,10 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 247px;
+    height: auto;
+    min-height: 247px;
 }
+
 
 .logofooter {
     margin-bottom: 87px;
@@ -369,35 +378,29 @@ nav {
 
 .divUlFooter {
     color: white;
+    display: flex;
+    margin-left: 20px;
 }
 
 .divUlFooter ul {
     list-style: none;
+    width: 25vw;
 }
 
 .divUlFooter ul li {
     padding: 12px 0px;
+    width: fit-content;
 }
 
 .divUlFooter ul a {
-    text-decoration: none;
-    color: white;
+    width: fit-content;
 }
 
-.divUlFooter2 {
-    color: white;
+.divUlFooter ul li:hover {
+    color: #F3613C;
 }
 
-.divUlFooter2 ul {
-    list-style: none;
-    margin-top: -40px;
-}
-
-.divUlFooter2 ul li {
-    padding: 12px 0px;
-}
-
-.divUlFooter2 ul a {
+.divUlFooter ul a {
     text-decoration: none;
     color: white;
 }
@@ -470,6 +473,66 @@ nav {
         width: 300px;
     }
 
+    .containerFooter2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divFormFooter {
+        width: auto;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .textinput {
+        width: 70vw!important;
+    }
+
+    .divUlFooter {
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0px;
+    }
+
+    .divUlFooter ul {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .divUlFooter ul li {
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+
+    .form {
+        width: auto;
+    }
+
+    .containerFooter2 {
+        flex-direction: column-reverse;
+    }
+
+    .logo-icons-footer {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .logofooter {
+        margin-bottom: 40px;
+    }
+
+    .logos-redes {
+        margin-bottom: 30px;
+    }
+
+    .logos-redes img {
+        transform: scale(1.5);
+        padding: 0px 10px;
+    }
 
     .div1footer1 h2 {
         margin: 0;
@@ -487,6 +550,9 @@ nav {
         margin: 0;
     }
 }
+
+
+
 
 @media (max-width: 1325px) {
     .container2Section2 {
@@ -508,5 +574,19 @@ nav {
     .container1Section1 h1{
         font-size: 35px;
         text-align:center;
+    }
+}
+
+@media (max-width: 1198px) {
+    .container1Section2 {
+        align-items: center;
+    }
+
+    .container1Section2 p {
+        text-align: center;
+    }
+
+    .container1Section2 h2 {
+        text-align: center;
     }
 }
